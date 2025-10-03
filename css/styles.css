@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+    font-family: "RousseauDeco";
+    src: url("/fonts/RousseauDeco.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --gold: #c68b31;
+    --sage: #a0a989;
+    --green: #5c885e;
+    --pink: #db8ea2;
+    --blue: #6b86ba;
+}
+
+/* Fonts */
+body,
+p,
+a,
+li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "RousseauDeco", sans-serif;
+}
+
+p a {
+    color: var(--blue);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: var(--gold);
+}
+
+a {
+    font-weight: bold;
+}
+
+body {
+    color: #000;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+/* Centering content */
+.content-wrapper {
+    max-width: 800px; /* about 50% width on large screens */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Navigation */
+nav {
+    font-weight: 600;
+    text-transform: lowercase;
+    font-size: 1rem;
+    margin-bottom: 60px;
+}
+
+nav a {
+    color: black !important;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: var(--pink) !important;
+    border-bottom: 2px solid var(--pink);
+}
+
+/* Hero Section */
+.hero h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.hero strong {
+    font-weight: 700;
+}
+.hero img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Sections */
+section {
+    margin: 80px 0;
+}
+
+/* Art Page */
+h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.art-piece {
+    margin-bottom: 40px;
+}
+.art-piece img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Projects Page */
+
+.project-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.project-link:hover {
+    color: var(--blue);
+}
