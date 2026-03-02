@@ -47,6 +47,10 @@ a {
     font-weight: bold;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #000;
     background-color: #fff;
